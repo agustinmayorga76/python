@@ -1,0 +1,37 @@
+Primero, para iniciar la consola interactiva de Python debemos escribir el comando **py **en Windows, pero en otros sistemas el comando es python3.
+Ahora, podemos comenzar.
+
+En la consola nos permite escribir operaciones matemáticas como 5 + 5 sin escribir nada más, pero en el editor de código debemos “imprimir” el resultado, de la siguiente manera:
+
+    print(5 + 5). Con esto obtendremos el resultado.
+
+Ahora veamos como se realiza cada operación aritmética:
+
+Operadores aritméticos en Python
+    Suma: 5 + 5
+    Resta: 5 - 5
+    Multiplicación: 5 * 5
+    División (con decimales): 5 / 5
+    División (sin decimales): 21 // 5
+    Resto de la división: 21 % 5
+    Potencia: 2 ** 2
+
+
+Raíz cuadrada:
+    math.sqrt(9)     
+     3.0
+    math.sqrt(11.11)   
+     3.3331666624997918
+    math.sqrt(Decimal('6.25'))     
+     2.5
+    Python respeta la separación de términos, por lo que si escribimos 5 + 5 * 2 multiplicará primero 5 x 2. En el caso de que quisiéramos que primero sume 5 + 5 ponemos paréntesis:
+     (5 + 5) * 2.
+
+Para recordar el orden de las operaciones en álgebra y en Python, es recomendable utilizar el orden PEMDAS:
+
+    Paréntesis
+    Exponentes o raíces
+    Multiplicaciones
+    Divisiones  
+    Adiciones y sustracciones
+    

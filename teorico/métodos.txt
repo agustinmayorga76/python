@@ -1,0 +1,30 @@
+# Con estos metodos cambio de mayusculas a minusculas, viceversa o coloco la primer letra en mayúscula
+
+
+- creo una variable llamada nombre
+- le agrego agustin
+
+nombre = "agustin"
+
+nombre = nombre.upper()     #me convierte agustin en 'AGUSTIN' 
+
+nombre = nombre.lower()    #me vuelve AGUSTIN en 'agustin'
+
+nombre = nombre.capitalize()   #convierte agustin en 'Agustin'
+
+nombre = nombre.strip()      #con éste método a mi nombre, le borra todos los especios basura que tiene al principio o final de mi nombre.  
+
+nombre = nombre.replace ('o' , 'a' )  # me reemplaza todas las letras 'o' (dentro de la variable nombre) por las letras 'a'
+
+nombre[2]      #me accede a la posicion numero 3 de nombre. En mi caso me devuelve la letra 'u'
+
+len(nombre)    #me cuenta la cantidad de letras que tiene la variable nombre. 7 en el caso de mi nombre 
+
+nombre[0:3]  (es igual nombre [:3]) #me muestra el  contenido de nombre desde la posicion 0 hasta la 2. Ej Agu
+
+nombre[1:7:2]   # me dice q vvaya del indice 1 al 6 salteando de 2 en dos q eso signifca el último numero
+
+nombre[0::3]   # voy desde el principio hasta el final en pasos de 3 en 3 *s igual a nombre[::3]
+
+nombre[::-1]   # voy desde el principio al final de uno en uno pero en forma inversa (osea q me develve nitsugA)
+

@@ -1,0 +1,26 @@
+Las listas son igual q vectores q puedo guardar diferentes tipos de datos
+Puedo guardar dentro de una lista un entero, un booleano, un tring y un true
+
+ej: pepe[1, 'hola', True, 2, 453]
+
+si imprimo pepe me sale lo siguiente:  [1, hola, True, 2, 453]
+
+-si quiero acceder a un dato particular como hola, debo poner: pepe[1]
+
+
+- si quiero AGREGAR    un valor a mi lista pepe lo hago con un metodo
+pepe.append(False) #esto es un metodo q agrega False al final de pepe
+
+"Si imprimo pepe" print (pepe)  = [1, hola, True, 2, 453, False]
+
+- si quiero BORRAR un valor a mi lista pepe lo hago con un metodo
+pepe.pop(3) #borro el elemento q esta en la posicion 3
+
+print(pepe)   =  [1, hola, True, 453, False]  #borre el numero 2 q estaba en la posicion 3
+
+- si quiero recorrer una lista, lo hago con for
+for elementos in pepe:
+    print(pepe)  # imprime cada uno de los elementos de la lista pepe cada uno con un endline
+
+- si quiero imprimir la lista en reverso, pongo
+ pepe[::-1]   #esto me imprime la lista en forma de atras para adelante \ y puedo jugar desde donde a donde y en q forma puedo imprimir o recorrer la lista

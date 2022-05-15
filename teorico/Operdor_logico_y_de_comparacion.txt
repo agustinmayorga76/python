@@ -1,0 +1,13 @@
+Operadores lógicos
+    -and ( y ): compara dos valores, y si ambos son verdaderos, devuelve True.
+    -or ( ó ): si al comparar dos valores y uno de los dos se cumple, devuelve True. Solo devuelve falso cuando los dos valores no se cumplen.
+    -not ( no): invierte el valor de una variable, dando el valor contrario al de la variable evaluada.
+
+
+Operadores de comparación
+    == ( igual qué ): determina si dos valores son iguales o no.
+    != (diferente de): determina si dos valores son distintos o no. Si los valores son diferentes devuelve True, si son iguales devuelve False.
+    > (mayor que): compara dos valores, y determina si es mayor que el otro.
+    < (menor que): compara dos valores y determina si es menor que el otro.
+    >= (mayor o igual): compara dos valores y determinas si es mayor o igual que el otro.
+    <= (menor o igual): compara dos valores y determinas si es menor o igual que el otro.
