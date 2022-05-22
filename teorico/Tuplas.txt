@@ -2,6 +2,7 @@ Las tuplas son parecidas a las listas..
 la unica diferencia es q no podemos agregar/cambiar o borrar los valores dentro de ellas
 son INMUTABLES (significa q no pueden mutar o cambiar)
 se escriben igual q las listas pero no se escriben en [] sino q se escriben en ()
+son mucho mas rapidas de recorrer con un ciclo for.. Se unsan para ahorrar memoria en el programa
 
 ej:
 mi_tupla = (1,2,3)
@@ -9,13 +10,15 @@ mi_tupla[0] #1
 mi_tupla[1] #2
 mi_tupla[2] #3
 
-mi_tupla = (1,2,3)
-mi_otra_tupla = (4,5,6)
-mi_tupla =+ mi_otra_tupla
-esto queda 1 2 3 4 5 6
+
+Reasignar una tupla
+ mi_tupla = (1,2,3)
+ mi_otra_tupla = (4,5,6)
+ mi_tupla =+ mi_otra_tupla
+ esto queda 1 2 3 4 5 6
 
 Métodos para trabajar con tuplas
-mi_tupla = (1,1,1,2,2,3)
+ mi_tupla = (1,1,1,2,2,3)
 
 Encontraremos los siguientes métodos:
 

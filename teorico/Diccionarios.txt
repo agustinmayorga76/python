@@ -1,0 +1,110 @@
+Los diccionarios en Python son una estructura de datos mutable las cuales almacenan diferentes tipos de valores 
+sin darle importancia a su orden. Identifican a cada elemento por una clave (Key). Se escriben entre {}.
+
+Operaciones en diccionarios
+ .keys():Retorna la clave de nuestro elemento.
+
+ .values(): Retorna una lista de elementos (valores del diccionario).
+
+ .items(): Devuelve lista de tuplas (primero la clave y luego el valor).
+
+ .clear(): Elimina todos los items del diccionario.
+
+ .pop(“n”): Elimina el elemento ingresado.
+
+Cómo trabajar con diccionarios
+ .Definir función principal
+  def run():
+    # Defino el diccionario, agrego los valores.
+    mi_diccionario = {
+      'llave1' : 1,
+      'llave2' : 2,
+      'llave3' : 3,
+    }
+ 
+Imprimir valores del diccionario 
+ print(mi_diccionario['llave1'])   # me imprime 1
+
+
+
+
+Imprimir las llaves del diccionario utilizando un bucle for. Con ‘.keys()’ 
+ estamos llamando a imprimir las llaves, no los valores.
+      for llave in mi_diccionario.keys():
+        print(llave)
+
+Imprimir los valores del diccionario empleando un bucle for. Con ‘.values()’ estoy llamando a imprimir los valores.
+      for valores in mi_diccionario.values():
+      print(valores)
+
+Imprimir las llaves y los valores usando ‘.items()’. Para esto, coloco las variables llave e items.
+    for llave, items in mi_diccionario.items():       #me imprime ambos valores (llave e items) 
+        print("La llave: '" + llave + "' contiene el item: " + str(items))  #pongo str para poder imprimirlo como string ya q es un int
+
+    if __name__ == '__main__':
+        run()
+---------------------------------------------
+
+EJEMPLOS DE EJERCICIOS:
+
+1) Use the get method to print the value of the "model" key of the car dictionary.
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car.get("model"))
+
+----------------------------------------
+
+2) Change the "year" value from 1964 to 2020.
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["year"] = 2020
+
+------------------------------------------------
+
+3) Add the key/value pair "color" : "red" to the car dictionary.
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["color"] = "red"
+
+-----------------------------------------
+
+4) Use the pop method to remove "model" from the car dictionary.
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.pop("model")
+
+---------------------------------------
+
+5) Use the clear method to empty the car dictionary.
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.clear()
+
+------------------------------------------
+
+
